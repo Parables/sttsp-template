@@ -1,4 +1,5 @@
 <script>
+  import './main.css';
 	import {onMount} from 'svelte';
 	let count: number = 0;
 	onMount(() => {
@@ -56,7 +57,9 @@
   </style>
   
   <div class="App">
-	<header class="App-header">
+
+		<header class="App-header">
+			<button class="px-6 py-4 bg-blue-400 rounded-md ">Save</button>
 	  <img src="/logo.svg" class="App-logo" alt="logo" />
 	  <p>Edit <code>src/App.svelte</code> and save to reload.</p>
 	  <p>Page has been open for <code>{count}</code> seconds.</p>
