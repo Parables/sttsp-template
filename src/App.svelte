@@ -59,7 +59,6 @@
   <div class="App">
 
 		<header class="App-header">
-			<button class="px-6 py-4 bg-blue-400 rounded-md ">Save</button>
 	  <img src="/logo.svg" class="App-logo" alt="logo" />
 	  <p>Edit <code>src/App.svelte</code> and save to reload.</p>
 	  <p>Page has been open for <code>{count}</code> seconds.</p>
@@ -67,7 +66,8 @@
 		<a class="App-link" href="https://svelte.dev" target="_blank" rel="noopener noreferrer">
 		  Learn Svelte
 		</a>
-	  </p>
+		</p>
+		<p>This template also comes with TailwindCSS, now start building some great apps!</p>
 	</header>
   </div>
   

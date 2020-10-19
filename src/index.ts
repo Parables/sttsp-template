@@ -1,6 +1,3 @@
-import './module-workers-polyfill.js'
-import { ALL_BOOKS } from './graphql/queries';
-import { startNetworkFetchWorker} from './services'
 import App from "./App.svelte";
 
 var app = new App({
@@ -18,4 +15,3 @@ if (import.meta.hot) {
   });
 }
 
-startNetworkFetchWorker(ALL_BOOKS)
